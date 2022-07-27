@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html, body{
+    margin:0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    font-size: 1em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Lobster Two', serif;
+    font-size: 3em;
+}
+
+.titlebox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 2rem;
+    margin-bottom: -1rem;
+    height: 30vh;
+    min-height: 15rem;
+}
+
+
+.info{
+    width: 100%;
+    padding: 40px calc(50% - 400px);
+    margin-top:-2px;
+    background-color: #000b76;
+    color:white;
+}
+
+@media screen and (max-width:880px) {
+    .info {
+        padding: 2rem;
+    }
+}
