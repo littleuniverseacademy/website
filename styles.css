@@ -3,16 +3,16 @@
     --background: rgb(68, 98, 167);
     --foreground: rgb(245, 240, 233);
 }
-nav a{
+body{
+    background-color: var(--accent);
+}
+
+nav a, nav p{
     color:black;
 }
 
 .titlebox{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin: 1rem 2rem;
-    margin-top:3rem;
     margin-bottom: -1rem;
     height: 30vh;
     min-height: 15rem;
@@ -37,11 +37,5 @@ nav a{
 @media screen and (max-width:880px) {
     section {
         padding: 2rem;
-    }
-    .titlebox h1 {
-        font-size: 3em;
-    }
-    html{
-        zoom: 0.85;
     }
 }
