@@ -62,6 +62,7 @@ h2 {
 
 h3{
     font-size: 1.2em;
+    margin-bottom: 0.5em;
 }
 
 p{
@@ -79,6 +80,7 @@ nav a{
 nav{
     display: flex;
     width: 100%;
+    overflow: scroll;
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 2rem;
@@ -109,6 +111,7 @@ section,footer{
 }
 
 footer{
+    background-color: rgb(230, 213, 204);
     padding-bottom: 5em;
 }
 
@@ -135,7 +138,7 @@ ul,ol{
     margin: 0;
 }
 
-img{
+img,video{
     width: 100%;
     height: auto;
     border-radius: 5px;
