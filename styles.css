@@ -5,6 +5,7 @@
 }
 body{
     background-color: var(--accent);
+    position: relative;
 }
 
 nav a, nav p{
